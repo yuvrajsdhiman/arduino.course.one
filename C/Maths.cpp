@@ -27,17 +27,14 @@ int usub(int x, int y)
     {
         return x - y;
     }
-    else if(y > x)
+    else if(x < y)
     {
         return y - x;
     }
-    else if(x == y)
+    else 
     {
         return 0;
     }
-    else
-    {
-        return -1;
-    }
+   
 }
 
